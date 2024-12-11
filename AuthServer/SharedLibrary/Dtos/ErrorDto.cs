@@ -22,4 +22,3 @@ public class ErrorDto
          IsShow = isShow;
     }
 }
-
