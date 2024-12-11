@@ -124,6 +124,16 @@
         "runtime": {
           "bin/placeholder/AuthServer.Service.dll": {}
         }
+      },
+      "SharedLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SharedLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SharedLibrary.dll": {}
+        }
       }
     }
   },
@@ -471,11 +481,17 @@
       "type": "project",
       "path": "../AuthServer.Service/AuthServer.Service.csproj",
       "msbuildProject": "../AuthServer.Service/AuthServer.Service.csproj"
+    },
+    "SharedLibrary/1.0.0": {
+      "type": "project",
+      "path": "../SharedLibrary/SharedLibrary.csproj",
+      "msbuildProject": "../SharedLibrary/SharedLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "AuthServer.Service >= 1.0.0",
+      "SharedLibrary >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -514,6 +530,9 @@
           "projectReferences": {
             "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\AuthServer.Service\\AuthServer.Service.csproj": {
               "projectPath": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\AuthServer.Service\\AuthServer.Service.csproj"
+            },
+            "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\SharedLibrary\\SharedLibrary.csproj": {
+              "projectPath": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\SharedLibrary\\SharedLibrary.csproj"
             }
           }
         }
