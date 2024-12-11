@@ -11,6 +11,6 @@ public interface IAuthenticationService
 
     Task<Response<NoDataDto>> RevokeRefreshTokenAsync(string refreshToken);
 
-    Task<Response<ClientTokenDto>> CreateTokenByClient(ClientLoginDto clientLoginDto);
+    Task<Response<ClientTokenDto>> CreateTokenByClient(ClientLoginDto clientLoginDto);  
 }
 
