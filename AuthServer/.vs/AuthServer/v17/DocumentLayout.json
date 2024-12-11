@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A5188BD9-C9F6-46F2-B1D5-CF1B0CD749BD}|AuthServer.Service\\AuthServer.Service.csproj|c:\\fahrigedikprivate\\netcore-jwt\\authserver\\authserver.service\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5188BD9-C9F6-46F2-B1D5-CF1B0CD749BD}|AuthServer.Service\\AuthServer.Service.csproj|solutionrelative:authserver.service\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BDDA1122-2FA5-4EAD-A5C3-3D490698D677}|AuthServer.Data\\AuthServer.Data.csproj|c:\\fahrigedikprivate\\netcore-jwt\\authserver\\authserver.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDDA1122-2FA5-4EAD-A5C3-3D490698D677}|AuthServer.Data\\AuthServer.Data.csproj|solutionrelative:authserver.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -32,6 +36,19 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\AuthServer.Service\\Class1.cs",
+              "RelativeDocumentMoniker": "AuthServer.Service\\Class1.cs",
+              "ToolTip": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\AuthServer.Service\\Class1.cs",
+              "RelativeToolTip": "AuthServer.Service\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T10:50:58.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
               "DocumentMoniker": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\AuthServer.Data\\Class1.cs",
               "RelativeDocumentMoniker": "AuthServer.Data\\Class1.cs",
               "ToolTip": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\AuthServer.Data\\Class1.cs",
@@ -43,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\AuthServer.Core\\Class1.cs",
               "RelativeDocumentMoniker": "AuthServer.Core\\Class1.cs",
