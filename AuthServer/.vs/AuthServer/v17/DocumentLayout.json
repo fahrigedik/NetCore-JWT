@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D3760FE6-26AE-4208-A39F-D6DD90B0BF3F}|AuthServer.Core\\AuthServer.Core.csproj|c:\\fahrigedikprivate\\netcore-jwt\\authserver\\authserver.core\\dtos\\clienttokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3760FE6-26AE-4208-A39F-D6DD90B0BF3F}|AuthServer.Core\\AuthServer.Core.csproj|solutionrelative:authserver.core\\dtos\\clienttokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3760FE6-26AE-4208-A39F-D6DD90B0BF3F}|AuthServer.Core\\AuthServer.Core.csproj|c:\\fahrigedikprivate\\netcore-jwt\\authserver\\authserver.core\\dtos\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3760FE6-26AE-4208-A39F-D6DD90B0BF3F}|AuthServer.Core\\AuthServer.Core.csproj|solutionrelative:authserver.core\\dtos\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3760FE6-26AE-4208-A39F-D6DD90B0BF3F}|AuthServer.Core\\AuthServer.Core.csproj|c:\\fahrigedikprivate\\netcore-jwt\\authserver\\authserver.core\\services\\iservicegeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3760FE6-26AE-4208-A39F-D6DD90B0BF3F}|AuthServer.Core\\AuthServer.Core.csproj|solutionrelative:authserver.core\\services\\iservicegeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1A3BA40C-63BF-4F75-AE2B-194CAD9781D4}|SharedLibrary\\SharedLibrary.csproj|c:\\fahrigedikprivate\\netcore-jwt\\authserver\\sharedlibrary\\dtos\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A3BA40C-63BF-4F75-AE2B-194CAD9781D4}|SharedLibrary\\SharedLibrary.csproj|solutionrelative:sharedlibrary\\dtos\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A3BA40C-63BF-4F75-AE2B-194CAD9781D4}|SharedLibrary\\SharedLibrary.csproj|c:\\fahrigedikprivate\\netcore-jwt\\authserver\\sharedlibrary\\dtos\\nodatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A3BA40C-63BF-4F75-AE2B-194CAD9781D4}|SharedLibrary\\SharedLibrary.csproj|solutionrelative:sharedlibrary\\dtos\\nodatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3760FE6-26AE-4208-A39F-D6DD90B0BF3F}|AuthServer.Core\\AuthServer.Core.csproj|c:\\fahrigedikprivate\\netcore-jwt\\authserver\\authserver.core\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3760FE6-26AE-4208-A39F-D6DD90B0BF3F}|AuthServer.Core\\AuthServer.Core.csproj|solutionrelative:authserver.core\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A3BA40C-63BF-4F75-AE2B-194CAD9781D4}|SharedLibrary\\SharedLibrary.csproj|c:\\fahrigedikprivate\\netcore-jwt\\authserver\\sharedlibrary\\dtos\\errordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1A3BA40C-63BF-4F75-AE2B-194CAD9781D4}|SharedLibrary\\SharedLibrary.csproj|c:\\fahrigedikprivate\\netcore-jwt\\authserver\\sharedlibrary\\sharedlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{1A3BA40C-63BF-4F75-AE2B-194CAD9781D4}|SharedLibrary\\SharedLibrary.csproj|solutionrelative:sharedlibrary\\sharedlibrary.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3760FE6-26AE-4208-A39F-D6DD90B0BF3F}|AuthServer.Core\\AuthServer.Core.csproj|c:\\fahrigedikprivate\\netcore-jwt\\authserver\\authserver.core\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3760FE6-26AE-4208-A39F-D6DD90B0BF3F}|AuthServer.Core\\AuthServer.Core.csproj|solutionrelative:authserver.core\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3760FE6-26AE-4208-A39F-D6DD90B0BF3F}|AuthServer.Core\\AuthServer.Core.csproj|c:\\fahrigedikprivate\\netcore-jwt\\authserver\\authserver.core\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,6 +75,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ClientTokenDto.cs",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\AuthServer.Core\\Dtos\\ClientTokenDto.cs",
+              "RelativeDocumentMoniker": "AuthServer.Core\\Dtos\\ClientTokenDto.cs",
+              "ToolTip": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\AuthServer.Core\\Dtos\\ClientTokenDto.cs",
+              "RelativeToolTip": "AuthServer.Core\\Dtos\\ClientTokenDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T13:31:56.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TokenDto.cs",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\AuthServer.Core\\Dtos\\TokenDto.cs",
+              "RelativeDocumentMoniker": "AuthServer.Core\\Dtos\\TokenDto.cs",
+              "ToolTip": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\AuthServer.Core\\Dtos\\TokenDto.cs",
+              "RelativeToolTip": "AuthServer.Core\\Dtos\\TokenDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T13:28:53.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NoDataDto.cs",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\SharedLibrary\\Dtos\\NoDataDto.cs",
+              "RelativeDocumentMoniker": "SharedLibrary\\Dtos\\NoDataDto.cs",
+              "ToolTip": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\SharedLibrary\\Dtos\\NoDataDto.cs",
+              "RelativeToolTip": "SharedLibrary\\Dtos\\NoDataDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T13:07:46.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IServiceGeneric.cs",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\AuthServer.Core\\Services\\IServiceGeneric.cs",
+              "RelativeDocumentMoniker": "AuthServer.Core\\Services\\IServiceGeneric.cs",
+              "ToolTip": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\AuthServer.Core\\Services\\IServiceGeneric.cs",
+              "RelativeToolTip": "AuthServer.Core\\Services\\IServiceGeneric.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T13:02:03.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Response.cs",
               "DocumentMoniker": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\SharedLibrary\\Dtos\\Response.cs",
               "RelativeDocumentMoniker": "SharedLibrary\\Dtos\\Response.cs",
@@ -71,33 +139,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "ErrorDto.cs",
               "DocumentMoniker": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\SharedLibrary\\Dtos\\ErrorDto.cs",
               "RelativeDocumentMoniker": "SharedLibrary\\Dtos\\ErrorDto.cs",
               "ToolTip": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\SharedLibrary\\Dtos\\ErrorDto.cs",
               "RelativeToolTip": "SharedLibrary\\Dtos\\ErrorDto.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T12:27:41.913Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\AuthServer.Core\\Repositories\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "AuthServer.Core\\Repositories\\IGenericRepository.cs",
               "ToolTip": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\AuthServer.Core\\Repositories\\IGenericRepository.cs",
               "RelativeToolTip": "AuthServer.Core\\Repositories\\IGenericRepository.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAkwAsAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T11:43:46.409Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "UserRefreshToken.cs",
               "DocumentMoniker": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\AuthServer.Core\\Models\\UserRefreshToken.cs",
               "RelativeDocumentMoniker": "AuthServer.Core\\Models\\UserRefreshToken.cs",
@@ -110,7 +178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "UserApp.cs",
               "DocumentMoniker": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\AuthServer.Core\\Models\\UserApp.cs",
               "RelativeDocumentMoniker": "AuthServer.Core\\Models\\UserApp.cs",
@@ -123,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\AuthServer.Core\\Models\\Product.cs",
               "RelativeDocumentMoniker": "AuthServer.Core\\Models\\Product.cs",
@@ -136,7 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "SharedLibrary",
               "DocumentMoniker": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\SharedLibrary\\SharedLibrary.csproj",
               "RelativeDocumentMoniker": "SharedLibrary\\SharedLibrary.csproj",
@@ -149,7 +217,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "MiniApp3.API",
               "DocumentMoniker": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\MiniApp3.API\\MiniApp3.API.csproj",
               "RelativeDocumentMoniker": "MiniApp3.API\\MiniApp3.API.csproj",
@@ -162,7 +230,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "MiniApp1.API",
               "DocumentMoniker": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\MiniApp1.API\\MiniApp1.API.csproj",
               "RelativeDocumentMoniker": "MiniApp1.API\\MiniApp1.API.csproj",
