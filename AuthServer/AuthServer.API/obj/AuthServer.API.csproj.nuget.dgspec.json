@@ -132,7 +132,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\SharedLibrary\\SharedLibrary.csproj": {
+                "projectPath": "C:\\FahriGedikPrivate\\NetCore-JWT\\AuthServer\\SharedLibrary\\SharedLibrary.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
