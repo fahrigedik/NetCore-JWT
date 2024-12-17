@@ -51,7 +51,7 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
 
     public T Update(T entity)
     { 
-        _context.Entry(entity).State = EntityState.Modified;
+       _context.Entry(entity).State = EntityState.Modified;
        var newEntity = _dbSet.Update(entity);
        return newEntity.Entity;
 
