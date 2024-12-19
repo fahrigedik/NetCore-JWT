@@ -20,6 +20,7 @@ public class UserService : IUserService
     {
         var user = new UserApp()
         {
+            Id = Guid.NewGuid().ToString(),
             Email = createUserDto.Email,
             UserName = createUserDto.UserName
         };

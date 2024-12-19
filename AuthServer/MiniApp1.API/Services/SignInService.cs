@@ -1,13 +1,12 @@
-﻿using System.Text;
-using Microsoft.IdentityModel.Tokens;
+﻿using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
-namespace AuthServer.Service.Services;
+namespace MiniApp1.API.Services;
 
-public static class SignInService 
+public static class SignInService
 {
     public static SecurityKey GetSymmetricSecurityKey(string securityKey)
     {
         return new SymmetricSecurityKey(Encoding.UTF8.GetBytes(securityKey));
     }
 }
-

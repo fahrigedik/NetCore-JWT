@@ -52,10 +52,9 @@ builder.Services.AddIdentity<UserApp, IdentityRole>(options =>
     options.Password.RequireNonAlphanumeric = true;
     options.Password.RequireDigit = true;
 }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
-builder.Services.Configure<CustomTokenOption>(builder.Configuration.GetSection("TokenOption"));
+builder.Services.Configure<CustomTokenOption>(builder.Configuration.GetSection("TokenOptions"));
 builder.Services.Configure<Client>(builder.Configuration.GetSection("Clients"));
 
-var tokenOptions = builder.Configuration.GetSection("TokenOption").Get<CustomTokenOption>();
 
 builder.Services.AddAuthentication(options =>
 {
@@ -64,6 +63,7 @@ builder.Services.AddAuthentication(options =>
     ;
 }).AddJwtBearer(JwtBearerDefaults.AuthenticationScheme, opts =>
 {
+    var tokenOptions = builder.Configuration.GetSection("TokenOptions").Get<CustomTokenOption>();
     opts.TokenValidationParameters = new TokenValidationParameters()
     {
 
@@ -92,6 +92,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

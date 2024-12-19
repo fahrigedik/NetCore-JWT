@@ -69,6 +69,8 @@ public class AuthenticationService : IAuthenticationService
             userRefreshToken.Code = token.RefreshToken;
             userRefreshToken.Expiration = token.RefreshTokenExpiration;
         }
+        await _unitOfWork.SaveChangesAsync();
+
 
         return Response<TokenDto>.Success(token, 200);
     }
