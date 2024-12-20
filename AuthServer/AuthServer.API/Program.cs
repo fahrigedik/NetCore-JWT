@@ -1,3 +1,4 @@
+using AuthServer.API.Validations;
 using AuthServer.Core.Configuration;
 using AuthServer.Core.Models;
 using AuthServer.Core.Repositories;
@@ -8,6 +9,8 @@ using AuthServer.Data.Repositories;
 using AuthServer.Data.UnitOfWork;
 using AuthServer.Service;
 using AuthServer.Service.Services;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -45,7 +48,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
         sqlOptions.MigrationsAssembly(typeof(DataAssembly).Assembly.FullName);
     });
 });
-
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddFluentValidationClientsideAdapters();
+builder.Services.AddValidatorsFromAssemblyContaining<CreateUserDtoValidator>();
 builder.Services.AddIdentity<UserApp, IdentityRole>(options =>
 {
     options.User.RequireUniqueEmail = true;
@@ -80,6 +85,8 @@ builder.Services.AddAuthentication(options =>
         ClockSkew = TimeSpan.Zero // Token'a ömür verildiðinde 1 saatlik ömür verildiðinde +5 dk gelir. çünkü serverlar arasý zaman aralýðýný minimize etmek için.
     };
 });
+
+
 
 var app = builder.Build();
 
