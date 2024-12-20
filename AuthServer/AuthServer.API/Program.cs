@@ -1,3 +1,4 @@
+using AuthServer.API.Extensions;
 using AuthServer.API.Validations;
 using AuthServer.Core.Configuration;
 using AuthServer.Core.Models;
@@ -48,6 +49,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
         sqlOptions.MigrationsAssembly(typeof(DataAssembly).Assembly.FullName);
     });
 });
+
+builder.Services.UseCustomValidationResponse();
 builder.Services.AddFluentValidationAutoValidation();
 builder.Services.AddFluentValidationClientsideAdapters();
 builder.Services.AddValidatorsFromAssemblyContaining<CreateUserDtoValidator>();
