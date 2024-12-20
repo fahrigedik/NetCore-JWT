@@ -28,7 +28,7 @@ namespace AuthServer.API.Extensions
 
                     await context.Response.WriteAsync(JsonSerializer.Serialize(response));
                 });
-            })
+            });
 
         }
     }

@@ -14,6 +14,7 @@ namespace AuthServer.API.Controllers
     {
 
         private readonly IUserService _userService;
+
         public UserController(IUserService userService)
         {
             _userService = userService;
@@ -32,6 +33,14 @@ namespace AuthServer.API.Controllers
         public async Task<IActionResult> GetUser()
         {
             return ActionResultInstance(await _userService.GetUserByNameAsync(HttpContext.User.Identity.Name));
+        }
+
+
+        [HttpPost("CreateUserRoles/{email}")]
+        public async Task<IActionResult> CreateUserRoles(string email)
+        {
+            await _userService.CreateUserRoles(email);
+            return Ok();
         }
     }
 }
