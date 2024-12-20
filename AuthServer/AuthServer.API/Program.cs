@@ -53,7 +53,7 @@ builder.Services.AddIdentity<UserApp, IdentityRole>(options =>
     options.Password.RequireDigit = true;
 }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 builder.Services.Configure<CustomTokenOption>(builder.Configuration.GetSection("TokenOptions"));
-builder.Services.Configure<Client>(builder.Configuration.GetSection("Clients"));
+builder.Services.Configure<List<Client>>(builder.Configuration.GetSection("Clients"));
 
 
 builder.Services.AddAuthentication(options =>

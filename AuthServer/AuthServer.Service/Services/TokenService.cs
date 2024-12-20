@@ -9,7 +9,6 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using SharedLibrary.Configuration;
-using JwtRegisteredClaimNames = Microsoft.IdentityModel.JsonWebTokens.JwtRegisteredClaimNames;
 
 namespace AuthServer.Service.Services;
 
@@ -42,7 +41,7 @@ public class TokenService : ITokenService
         var userList = new List<Claim>
         {
             new Claim(ClaimTypes.NameIdentifier, userApp.Id),
-            new Claim(JwtRegisteredClaimNames.Email, userApp.Email),
+            new Claim(ClaimTypes.Email, userApp.Email),
             new Claim(ClaimTypes.Name, userApp.UserName),
             new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
         };
@@ -55,8 +54,8 @@ public class TokenService : ITokenService
     {
         var claims = new List<Claim>();
         claims.AddRange(client.Audiences.Select(x => new Claim(JwtRegisteredClaimNames.Aud, x)));
-        new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString());
-        new Claim(JwtRegisteredClaimNames.Sub, client.ClientId);
+        claims.Add(new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()));
+        claims.Add(new Claim(JwtRegisteredClaimNames.Sub, client.ClientId));
         return claims;
     }
 
@@ -95,7 +94,28 @@ public class TokenService : ITokenService
 
     public ClientTokenDto CreateTokenByClient(Client client)
     {
-        throw new NotImplementedException();
+        var accessTokenExpiration = DateTime.Now.AddMinutes(_tokenOption.AccessTokenExpiration);
+        var securityKey = SignInService.GetSymmetricSecurityKey(_tokenOption.SecurityKey);
+
+        SigningCredentials signingCredentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256Signature);
+
+        JwtSecurityToken jwtSecurityToken = new JwtSecurityToken(
+            issuer: _tokenOption.Issuer,
+            expires: accessTokenExpiration,
+            notBefore: DateTime.Now,
+            claims: GetClaimsByClient(client),
+            signingCredentials: signingCredentials
+        );
+
+        var handler = new JwtSecurityTokenHandler();
+        var token = handler.WriteToken(jwtSecurityToken);
+        var clientTokenDto = new ClientTokenDto()
+        {
+            AccessToken = token,
+            AccessTokenExpiration = accessTokenExpiration,
+        };
+
+        return clientTokenDto;
     }
 }
 

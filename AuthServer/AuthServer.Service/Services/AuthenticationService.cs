@@ -121,7 +121,7 @@ public class AuthenticationService : IAuthenticationService
         var client = _clients.SingleOrDefault(x =>
             x.ClientId == clientLoginDto.ClientId && x.Secret == clientLoginDto.ClientSecret);
 
-        if (client is null)
+        if (clientLoginDto is null)
         {
             return Response<ClientTokenDto>.Fail("ClientID or Secret not found", 404, true);
         }
